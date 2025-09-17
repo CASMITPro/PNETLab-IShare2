@@ -7,7 +7,6 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 - Actualización del sistema
 - Instalación de PNETLab v6
 - Instalación automatizada de iShare2 con aria2c activado
-- Logging completo en `/var/log/pnetlab_ishare2_setup.log`
 
 ## 🧰 Requisitos
 
