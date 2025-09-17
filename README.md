@@ -19,7 +19,7 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/tuusuario/PNETLab-IShare2.git
+git clone https://github.com/CASMITPro/PNETLab-IShare2.git
 cd PNETLab-IShare2
 chmod +x install.sh
 sudo ./install.sh
