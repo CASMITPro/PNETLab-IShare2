@@ -21,6 +21,16 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 <img width="722" height="410" alt="{03031FA2-C19C-4FEF-8FF1-BDEF9080082B}" src="https://github.com/user-attachments/assets/3cbd488a-3906-404a-8e1b-cb3c86272fa3" />
 <img width="726" height="212" alt="{B53BACD1-37ED-4AC6-BC07-E7A4C6107EBB}" src="https://github.com/user-attachments/assets/12f3a446-7eed-47f1-92f4-9a18036cb195" />
 
+- Instalacion de Ubuntu 20.04.6:
+<img width="804" height="584" alt="{2E8F3276-6AF2-435C-B91E-6204DA66C075}" src="https://github.com/user-attachments/assets/79f10d2b-8f04-4492-923b-15979ffb16dc" />
+Configurar Dirrecionamiento IP segun el rango del segmento NAT de VMWware:
+<img width="799" height="580" alt="{6F9000FC-C74F-46AF-A5FD-D49FF16E92C0}" src="https://github.com/user-attachments/assets/50f687d8-7ee1-4c36-ba0f-dc724be506c7" />
+Creacion de Usuario:
+User: pnet
+Pass: pnet
+Name Server: pnetlab
+<img width="799" height="584" alt="{1058291E-23B2-46C1-9768-C7D5B431E81A}" src="https://github.com/user-attachments/assets/e180f298-7f2e-4034-85e1-1f16e399c6d6" />
+
 
 - Acceso root o sudo
 - Conexión a internet
