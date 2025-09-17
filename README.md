@@ -27,10 +27,12 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 Configurar Dirrecionamiento IP segun el rango del segmento NAT de VMWware:
 <img width="799" height="580" alt="{6F9000FC-C74F-46AF-A5FD-D49FF16E92C0}" src="https://github.com/user-attachments/assets/50f687d8-7ee1-4c36-ba0f-dc724be506c7" />
 
+```bash
 Creacion de Usuario:
 User: pnet
 Pass: pnet
 Name Server: pnetlab
+```
 
 <img width="799" height="584" alt="{1058291E-23B2-46C1-9768-C7D5B431E81A}" src="https://github.com/user-attachments/assets/e180f298-7f2e-4034-85e1-1f16e399c6d6" />
 
