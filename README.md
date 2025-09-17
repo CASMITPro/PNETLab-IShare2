@@ -14,7 +14,7 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 
 - Ubuntu Server 20.04 [Link](https://releases.ubuntu.com/focal/)
 - Creacion de VM en VMware Workstation Pro:
-<img width="300" height="212" alt="{305E8303-F95F-4751-BD8A-334D73CA5D12}" src="https://github.com/user-attachments/assets/66d1e66a-07d5-4216-ae24-36bd64626017" />
+<img width="280" height="212" alt="{305E8303-F95F-4751-BD8A-334D73CA5D12}" src="https://github.com/user-attachments/assets/66d1e66a-07d5-4216-ae24-36bd64626017" />
 <img width="427" height="429" alt="{115001DE-E2AE-45C7-BE6E-F507FF86E71A}" src="https://github.com/user-attachments/assets/072c29e5-0f6f-447b-ada3-e6bf80fac6e8" />
 <img width="426" height="427" alt="{372528A4-E957-458F-9E2D-98E4BE76DFD5}" src="https://github.com/user-attachments/assets/8e59e457-1ed1-4e07-82bc-caf3067a2336" />
 <img width="428" height="429" alt="{EAF9F145-7959-4F11-9B4D-1F847D04C350}" src="https://github.com/user-attachments/assets/8791c90d-9d40-4566-8fb3-23ccfb45bf8f" />
