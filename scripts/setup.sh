@@ -16,7 +16,7 @@ bash -c "$(curl -sL https://labhub.eu.org/api/raw/?path=/upgrades_pnetlab/focal/
 echo "🌐 Instalando iShare2 con configuración automática..."
 wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/ishare2-org/ishare2-cli/main/ishare2 && \
 chmod +x /usr/sbin/ishare2 && \
-echo "y" | ishare2 && \
+printf "\n\ny\n2\n1\n" | ishare2 && \
 cd ishare2-cli && \
 cp ishare2 /usr/sbin/ && \
 cd /usr/sbin && \
