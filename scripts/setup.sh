@@ -1,6 +1,6 @@
 #!/bin/bash
 # ┌────────────────────────────────────────────┐
-# │  Script de Configuración Ubuntu + CASMITPro │
+# │      Script de Configuración Ubuntu        │
 # └────────────────────────────────────────────┘
 
 set -e  # Detener ejecución ante cualquier error
