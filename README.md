@@ -12,7 +12,7 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 
 ## 🧰 Requisitos
 
-- Ubuntu Server 20.04 o superior
+- Ubuntu Server 20.04
 - Acceso root o sudo
 - Conexión a internet
 
