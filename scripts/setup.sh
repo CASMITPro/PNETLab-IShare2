@@ -10,7 +10,7 @@ exec > >(tee -a "$LOG") 2>&1
 echo "🔧 [1/3] Actualizando sistema y preparando entorno..."
 sudo apt update && \
 sudo apt upgrade -y && \
-sudo apt install -y curl wget git aria2
+sudo apt install -y curl wget git aria2 jq unrar tree unzip
 
 echo "📦 [2/3] Instalando PNETLab v6..."
 bash -c "$(curl -sL https://labhub.eu.org/api/raw/?path=/upgrades_pnetlab/focal/install_pnetlab_v6.sh)"
