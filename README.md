@@ -14,7 +14,8 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 
 - Ubuntu Server 20.04 [Link](https://releases.ubuntu.com/focal/)
 - Creacion de VM en VMware Workstation Pro:
-  * Espacion Disco Duro 100GB
+  * Espacion Disco Duro 100GB o Superior
+  * Capacidad de RAM 8GB o Superior
 <img width="428" height="429" alt="{EAF9F145-7959-4F11-9B4D-1F847D04C350}" src="https://github.com/user-attachments/assets/8791c90d-9d40-4566-8fb3-23ccfb45bf8f" />
 <img width="722" height="410" alt="{03031FA2-C19C-4FEF-8FF1-BDEF9080082B}" src="https://github.com/user-attachments/assets/3cbd488a-3906-404a-8e1b-cb3c86272fa3" />
 <img width="726" height="212" alt="{B53BACD1-37ED-4AC6-BC07-E7A4C6107EBB}" src="https://github.com/user-attachments/assets/12f3a446-7eed-47f1-92f4-9a18036cb195" />
