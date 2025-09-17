@@ -20,6 +20,7 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 <img width="726" height="212" alt="{B53BACD1-37ED-4AC6-BC07-E7A4C6107EBB}" src="https://github.com/user-attachments/assets/12f3a446-7eed-47f1-92f4-9a18036cb195" />
 
 - Instalacion de Ubuntu 20.04.6:
+  * Instalar OS y no Actualizar.
 <img width="804" height="584" alt="{2E8F3276-6AF2-435C-B91E-6204DA66C075}" src="https://github.com/user-attachments/assets/79f10d2b-8f04-4492-923b-15979ffb16dc" />
 
 ```bash
