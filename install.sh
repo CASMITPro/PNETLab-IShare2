@@ -1,5 +1,5 @@
 #!/bin/bash
-# PNETLab+IShare2 Installer - CASMITPro Edition
+# PNETLab+IShare2 Installer
 
 set -e
 echo "🚀 Iniciando instalación PNETLab+IShare2..."
