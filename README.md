@@ -24,10 +24,7 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 - Instalacion de Ubuntu 20.04.6:
   * Instalar OS y no Actualizar.
   * Configurarion de Segmento de Red
-    - SubNET: 192.168.X.0/24
-    - Address: 192.168.X.10
-    - Gateway: 192.168.X.1
-    - DNS: 8.8.8.8,1.1.1.1
+    - DHCP o Estatico
   * Creacion de Usuario:
     - Usuario: pnet
     - Password: pnet
