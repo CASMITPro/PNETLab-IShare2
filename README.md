@@ -26,15 +26,11 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
     - SubNET: 192.168.56.0/24
     - Address: 192.168.56.100
     - Gateway: 192.168.56.2
-    - Name Server: 8.8.8.8,1.1.1.1
-
-```bash
-Creacion de Usuario:
-User: pnet
-Pass: pnet
-Name Server: pnetlab
-```
-<img width="799" height="584" alt="{1058291E-23B2-46C1-9768-C7D5B431E81A}" src="https://github.com/user-attachments/assets/e180f298-7f2e-4034-85e1-1f16e399c6d6" />
+    - DNS: 8.8.8.8,1.1.1.1
+  * Creacion de Usuario:
+    - Usuario: pnet
+    - Password: pnet
+    - Hostname: pnetlab 
 
 ## ⚙️ Instalación
 
