@@ -23,9 +23,11 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
 
 - Instalacion de Ubuntu 20.04.6:
 <img width="804" height="584" alt="{2E8F3276-6AF2-435C-B91E-6204DA66C075}" src="https://github.com/user-attachments/assets/79f10d2b-8f04-4492-923b-15979ffb16dc" />
+
 ```bash
 Configurar Dirrecionamiento IP segun el rango del segmento NAT de VMWware:
 ```
+
 <img width="799" height="580" alt="{6F9000FC-C74F-46AF-A5FD-D49FF16E92C0}" src="https://github.com/user-attachments/assets/50f687d8-7ee1-4c36-ba0f-dc724be506c7" />
 
 ```bash
