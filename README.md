@@ -17,9 +17,9 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
   * Espacion Disco Duro 100GB o Superior
   * Configuracion de Tarjeta de red modo NAT.
   * Capacidad de RAM 8GB o Superior
-  * Activacion de Caracteristica Procesador: 
-<img width="726" height="212" alt="{B53BACD1-37ED-4AC6-BC07-E7A4C6107EBB}" src="https://github.com/user-attachments/assets/12f3a446-7eed-47f1-92f4-9a18036cb195" />
-
+  * Activacion de Caracteristica Procesador:
+    - Virtualize Intel VT-x/EPT or AMD-V/RVI
+         
 - Instalacion de Ubuntu 20.04.6:
   * Instalar OS y no Actualizar.
   * Configurarion de Segmento de Red
