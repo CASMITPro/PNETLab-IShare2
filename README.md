@@ -20,7 +20,8 @@ Instalador automatizado para configurar Ubuntu Server con PNETLab v6 e iShare2 C
     - Virtualize Intel VT-x/EPT or AMD-V/RVI
  <img width="736" height="204" alt="{DF384D60-B86D-4515-8443-568AD67964E4}" src="https://github.com/user-attachments/assets/502d5f8e-2f66-485e-a339-7cd2bb9bb9c7" />
 
-         
+## ⚙️ Configuracion de VM y OS
+
 - Instalacion de Ubuntu 20.04.6:
   * Instalar OS y no Actualizar.
   * Configurarion de Segmento de Red
