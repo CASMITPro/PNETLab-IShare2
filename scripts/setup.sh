@@ -1,8 +1,4 @@
 #!/bin/bash
-# ┌────────────────────────────────────────────────────────┐
-# │   Módulo CASMITPro: Instalación iShare2 + Herramientas │
-# └────────────────────────────────────────────────────────┘
-
 set -e
 LOG="/var/log/casmitpro_ishare2.log"
 exec > >(tee -a "$LOG") 2>&1
