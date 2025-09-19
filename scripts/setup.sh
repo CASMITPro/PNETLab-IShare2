@@ -53,8 +53,8 @@ if [[ "$RESPUESTA" =~ ^[sS]$ ]]; then
 
     install -m 755 ishare2 /usr/local/bin/
 
-    echo "🧪 Ejecutando iShare2 CLI..."
-    ishare2 || echo "⚠️ iShare2 encontró errores durante la ejecución."
+    echo "🧪 Ejecutando iShare2 CLI sin instalador de dependencias..."
+    ISHARE2_SKIP_DEPS=1 ishare2 || echo "⚠️ iShare2 encontró errores durante la ejecución."
 
     echo "✅ iShare2 instalado y ejecutado."
 else
