@@ -1,27 +1,30 @@
 #!/bin/bash
 set -e
 
-LOG="/var/log/pnetlab_installer.log"
+LOG="/var/log/casmitpro_setup.log"
 exec > >(tee -a "$LOG") 2>&1
 
 echo "🔧 [1/4] Actualizando sistema y preparando entorno..."
 apt update && apt upgrade -y
 
 echo "📦 [2/4] Instalando dependencias necesarias..."
-apt install -y curl wget git aria2 jq unrar tree unzip || {
-    echo "❌ Error al instalar dependencias. Intenta ejecutar: apt --fix-broken install"
-    exit 1
-}
+DEPENDENCIAS=(curl wget git aria2 jq unrar tree unzip)
+for pkg in "${DEPENDENCIAS[@]}"; do
+    if ! dpkg -s "$pkg" >/dev/null 2>&1; then
+        echo "📦 Instalando: $pkg"
+        apt install -y "$pkg"
+    else
+        echo "✅ $pkg ya está instalado."
+    fi
+done
 
-echo "🧠 Validación de dependencias completada."
-
-echo "🧱 [3/4] Instalando PNETLab v6..."
+echo "🧱 Instalando PNETLab v6..."
 bash -c "$(curl -sL https://labhub.eu.org/api/raw/?path=/upgrades_pnetlab/focal/install_pnetlab_v6.sh)" || {
-    echo "❌ Error al instalar PNETLab. Verifica la conexión o el script remoto."
+    echo "❌ Error al instalar PNETLab. Abortando."
     exit 1
 }
 
-echo "🌐 [4/4] Instalando iShare2 CLI..."
+echo "🌐 Instalando iShare2 CLI..."
 wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/ishare2-org/ishare2-cli/main/ishare2
 chmod +x /usr/sbin/ishare2
 
