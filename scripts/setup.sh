@@ -15,3 +15,13 @@ bash -c "$(curl -sL https://labhub.eu.org/api/raw/?path=/upgrades_pnetlab/focal/
 
 echo "✅ [3/3] Instalación de PNETLab completada con éxito."
 echo "📄 Log disponible en: $LOG"
+
+echo ""
+read -p "🔁 ¿Deseas reiniciar el sistema ahora para completar la instalación? (s/n): " REINICIO
+
+if [[ "$REINICIO" =~ ^[sS]$ ]]; then
+    echo "🔄 Reiniciando el sistema..."
+    reboot
+else
+    echo "⏹ Reinicio cancelado. Puedes hacerlo manualmente más adelante con el comando: sudo reboot"
+fi
