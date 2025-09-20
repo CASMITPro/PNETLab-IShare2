@@ -37,4 +37,40 @@ git clone https://github.com/CASMITPro/PNETLab-IShare2.git
 cd PNETLab-IShare2
 chmod +x install_pnetlab.sh
 sudo ./install_pnetlab.sh
+```
 
+## ⚙️ Instalación Interactiva de iShare2
+<img width="796" height="925" alt="{D607199C-BB20-41A0-B063-1D846D92C586}" src="https://github.com/user-attachments/assets/a61827df-7eae-4fa3-bcf8-ad63efcbea99" />
+
+```bash
+[?] Enable aria2c for accelerated downloads? (default: no)
+[y/N]: y
+
+[?] Perform SSL certificate validation for downloads? (default: yes)
+[y/N]: y
+[?] Select update channel (branch).
+ 1) dev
+ 2) main
+[*] Enter the number of the desired branch (default: dev): 2
+[✓] Branch selected: main
+[i] Running 'ishare2 upgrade' to switch to this branch.
+
+[!] Mirror Selection
+iShare2 can download files from multiple mirror sources.
+
+ 1) Automatically rotate mirrors for reliability
+ 2) Always use: Google Drive mirror
+ 3) Always use: OneDrive mirror
+
+[?] Enter your choice (default: 1): 1
+[✓] Mirror rotation enabled (2 sources).
+┌──────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Configuration completed successfully.                                                        │
+│ You can now start using ishare2.                                                             │
+│ [!] IMPORTANT:                                                                               │
+│ - ishare2 is a free, open-source tool. If someone charged you for it, you've been scammed.   │
+│ - Avoid unofficial sources. They may contain malicious code.                                 │
+└──────────────────────────────────────────────────────────────────────────────────────────────┘
+[i] Updating ishare2 to the selected 'main' branch...
+[✓] iShare2 has been updated to the latest version from the 'main' branch.
+```
