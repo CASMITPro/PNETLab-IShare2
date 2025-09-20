@@ -72,3 +72,44 @@ iShare2 can download files from multiple mirror sources.
 [i] Updating ishare2 to the selected 'main' branch...
 [✓] iShare2 has been updated to the latest version from the 'main' branch.
 ```
+```bash
+┌──────────────────────────────────────────────────────┐
+│ MOTD from the ishare2 team:                          │
+│ Changelog:                                           │
+│ - Added mirror rotation- Added dynamic mirror        │
+│ options                                              │
+│                                                      │
+│ Telegram: https://t.me/NetLabHub                     │
+│ Donate: https://buymeacoffee.com/sudoalex            │
+│ GitHub: https://github.com/ishare2-org/ishare2-cli   │
+└──────────────────────────────────────────────────────┘
+Syntax
+
+ishare2 [action] [param1] [param2] [--overwrite]
+
+action:
+    search      : Search for images available on LabHub mirrors.
+    pull        : Download an image by specifying the type and id.
+    installed   : Shows images installed on the server.
+    labs        : Shows available labs and downloads the images for the selected lab.
+    mylabs      : Same as labs command but you can use a customized path.
+    relicense   : Generates an iourc license for iol images.
+    upgrade     : Shows a menu to upgrade ishare2 or PNETLab.
+    test        : Test internet connectivity to required sites.
+    help        : Shows full help information.
+
+param1:
+    type = all, iol, qemu, dynamips, docker or name.
+
+param2:
+    id = This can be obtained using ishare2 search <type>
+
+--overwrite:
+    Used to overwrite an existing image if it already exists on your system.
+```
+Try: ishare2 help for more information.
+✅ iShare2 instalado y ejecutado.
+
+🔁 ¿Deseas reiniciar el sistema ahora para completar la instalación? (s/n): s
+🔄 Reiniciando el sistema...
+```
