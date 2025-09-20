@@ -110,7 +110,7 @@ param2:
 Try: ishare2 help for more information.
 ✅ iShare2 instalado y ejecutado.
 ```
-```bash
+```
 🔁 ¿Deseas reiniciar el sistema ahora para completar la instalación? (s/n): s
 🔄 Reiniciando el sistema...
 ```
