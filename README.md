@@ -40,6 +40,8 @@ sudo ./install_pnetlab.sh
 ```
 
 ## ⚙️ Instalación Interactiva de iShare2
+<img width="776" height="920" alt="{AD43226F-7D7C-4E35-9DAC-B334B404B491}" src="https://github.com/user-attachments/assets/8b5ecd7b-ac32-4489-a4b4-cd3ad87fd6f9" />
+
 ```bash
 [?] Enable aria2c for accelerated downloads? (default: no)
 [y/N]: y
